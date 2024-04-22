@@ -1,0 +1,251 @@
+body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+} 
+
+html {
+    text-align: center;
+    scrollbar-color: #000000
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.4;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #000000;
+  color: white;
+  text-align: center;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #000000;
+  color: white;
+  text-align: center;
+} 
+
+/* Insta */
+.fa-instagram {
+    background: #000000;
+    color: white;
+    text-align: center;
+  } 
+
+  .fa-whatsapp {
+    background: #000000;
+    color: white;
+    text-align: center;
+  } 
+
+  .fa-github {
+    background: #000000;
+    color: white;
+    text-align: center;
+  } 
+
+  .fa-sms {
+    background: #000000;
+    color: white;
+    text-align: center;
+  } 
+
+  .fa-phone {
+    background: #000000;
+    color: white;
+    text-align: center;
+  }
+  
+  .fa-telegram {
+    background: #000000;
+    color: white;
+    text-align: center;
+  } 
+
+  .fa-gitlab {
+    background: #000000;
+    color: white;
+    text-align: center;
+  } 
+
+  .fa-android {
+    background: #000000;
+    color: white;
+    text-align: center;
+  } 
+
+  .fa-google {
+    background: #000000;
+    color: white;
+    text-align: center;
+  } 
+
+ /* Dropdown Button */
+ .dropbtn {
+    background-color: #707070;
+    color: #ffffff;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d9d9d9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: #000000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #949494;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #949494;} 
+
+  h1 {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  i {
+    color: #ffffff;
+    --fa-animation-duration: 3s;
+  }
+  
+  p {
+    color: #ffffff;
+    text-align: center;
+    font-size: large;
+  }
+  
+  
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: open sans;
+    transition: ease 0.5s;
+    text-decoration: none;
+    color: #ffffff;
+    list-style-type: none;
+  }
+  
+
+  
+  footer {
+    background:  Gray;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: DarkGray 0 10px 20px 5px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .main {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  .heading {
+    margin-bottom: 15px;
+  }
+  .col1 {
+    flex: 1;
+    min-width: 200px;
+  }
+  .col2 {
+    flex: 2;
+    min-width: 300px;
+  }
+  .col3 {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+  }
+  
+  .col1 a {
+    display: inline-block;
+    padding: 7px 0;
+    font-size: 14px;
+  }
+  .col1 a:hover {
+    color: #58bed5;
+  }
+  
+  .col2 .languages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 14px;
+  }
+  .col2 a {
+    display: inline-block;
+    padding: 3px 5px;
+    border-radius: 3px;
+  }
+  .col2 a:hover {
+    background: #58bed5;
+  }
+  
+  .social {
+    display: flex;
+    gap: 20px;
+  }
+  .col3 ion-icon {
+    font-size: 30px;
+  }
+  .social a:hover ion-icon {
+    color: #5ac1d8;
+  }
+  
+  .terms {
+    display: flex;
+    gap: 20px;
+    font-size: 12px;
+  }
+  .terms a {
+    color: #7783a0;
+  }
